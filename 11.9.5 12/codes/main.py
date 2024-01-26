@@ -13,14 +13,6 @@ print("//This program will plot the terms of the sequence up to x(n)// \n")
 N = int(input("Enter the value of n: "))
 
 # Generate the sequence up to N
-print("...\nx( -1 ) = 0\n")
-for x in range(N+1):
-    {    
-        print("x(", x, ") = ", x_n(x), "\n")
-    }
-print("...\n")
-
-# Generate the sequence up to N
 n_values = list(range(-2, N+1))
 x_values = [x_n(n) for n in n_values]
 
